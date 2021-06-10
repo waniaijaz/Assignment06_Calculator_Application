@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Calculator Made By Aijaz Ahamd Wani</title>
+</head>
+<body>
+    <div class="clac">
+        <h1>Calculator</h1>
+     <table>
+         <tr>
+             <th colspan="3" ><input type="text" id="res" placeholder="0"></th>
+             <th id="ac" onclick="clr()" ><span>AC</span></th>
+         </tr>
+         <tr>
+            <td id="per" onclick="per()"><p >%</p></td>
+            <td id="fact"><p id="fact">!X</p></td>
+            <td id="power" onclick="inp('**')"><p>X^</p></td>
+            <td id="root" onclick="root()"><p >√×</p></td>
+
+         </tr>
+         <tr>
+             <td onclick="inp('9')"><p >9</p></td>
+            <td onclick="inp('8')"><p >8</p></td>
+            <td onclick="inp('7')"><p >7</p></td>
+            <td onclick="inp('/')"><p >/</p></td>
+         </tr>
+         
+         <tr>
+             <td onclick="inp('6')"><p >6</p></td>
+            <td onclick="inp('5')"><p >5</p></td>
+            <td onclick="inp('4')"><p >4</p></td>
+            <td onclick="inp('*')"><p >*</p></td>
+         </tr>
+         <tr>
+             <td onclick="inp('3')"><p >3</p></td>
+            <td onclick="inp('2')"><p >2</p></td>
+            <td onclick="inp('1')"><p >1</p></td>
+            <td onclick="inp('-')"><p >-</p></td>
+         </tr>
+         <tr>
+             <td onclick="inp('.')"><p >.</p></td>
+            <td onclick="inp('0')"><p >0</p></td>
+            <td id="cal"><p>=</p></td>
+            <td onclick="inp('+')"><p x>+</p></td>
+         </tr>
+     </table>
+     </div>
+</body>
+<script src="index.js"></script>
+</html>

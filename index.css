@@ -1,0 +1,42 @@
+body{
+
+    background-color: black;
+}
+
+tr,#ac , #res{
+    color: wheat;
+    background-color: lightcoral;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+td:hover , #ac:hover{
+    background-color: cyan;
+    color: black;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    border: 5px solid wheat;
+}
+#res {
+
+    background-color:white;
+    color: black;
+    font-size: xx-large;
+}
+
+#ac{
+    font-size: 35px;
+}
+
+h1{
+
+   text-transform: uppercase;
+   color: wheat;
+   text-align: center;
+   font-size: 40px;
+}
